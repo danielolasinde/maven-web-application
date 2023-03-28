@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.206.172.19:8081/ZionTech/repository/paypal-releases/</url>
+	      <url>http://34.202.205.11:8081/ZionTech/repository/tesla-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.206.172.19:8081/ZionTech/repository/paypal-snapshots/</url>
+	      <url>http://34.202.205.11:8081/ZionTech/repository/tesla-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>paypal</finalName>
+		<finalName>tesla-dev</finalName>
 		
 		<plugins>
 			<plugin>
